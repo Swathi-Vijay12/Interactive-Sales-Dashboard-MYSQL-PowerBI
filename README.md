@@ -18,7 +18,7 @@ This project provides a comprehensive analysis of a multi-year retail dataset. I
 - **Dark Mode UI/UX:** Designed a high-contrast dashboard optimized for executive presentations.
 
 ## 📊 Dashboard Preview
-![Main Dashboard](Images/dashboard_preview.png)
+![Main Dashboard](Images/Dashboard_preview.png)
 
 ## 🏗️ Data Model (Star Schema)
 ![Star Schema](Images/star_schema_model.png)
