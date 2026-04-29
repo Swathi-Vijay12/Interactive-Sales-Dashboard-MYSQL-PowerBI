@@ -1,0 +1,11 @@
+-- TOTAL SALES
+Total Sales = SUM('sales_performance fact_sales'[SalesAmount])
+
+-- SALES LAST YEAR
+Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('sales_performance dim_date1'[DateKey]))
+
+-- YOY GROWTH %
+YoY Growth = DIVIDE([Total Sales] - [Sales LY], [Sales LY], 0)
+
+-- TOTAL PROFIT
+Total Profit = SUM('sales_performance fact_sales'[Profit])
